@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Midterm {
@@ -13,6 +14,9 @@ public class Midterm {
            object2.printDetails();
            object2.computeTotal();
            object2.printTotal();
+           Salary object3 = new Salary("Test", "T");
+           object3.printDetails();
+           object3.printTotal();
     }  
 }
 class Employee{
@@ -57,6 +61,6 @@ class Employee{
             System.out.println("**********************************************");
             
         };
-      
 }
    
+
